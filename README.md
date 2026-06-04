@@ -1,6 +1,6 @@
-# Vent & Vibe: Your Python Companion 🧠✨
+# Motivator 🧠✨
 
-A simple, interactive Python command-line application designed to be a safe space for you to vent your problems or simply look for a quick pick-me-up. Whether you are having an amazing day or feeling a bit overwhelmed, this script is here to listen and offer a mix of humor, brain-teasers, or comforting words of wisdom.
+An interactive, command-line Python application designed to act as a digital sounding board and a mood booster. Built with a focus on user well-being, **Motivator** serves a dual purpose: providing a safe, private space to express negative feelings with personalized feedback, or delivering instant, lighthearted entertainment to brighten your day.
 
 ---
 
@@ -8,8 +8,8 @@ A simple, interactive Python command-line application designed to be a safe spac
 
 * **Mood Assessment:** Checks in on how you are feeling right from the start.
 * **The Joke & Riddle Vault:** If you're doing well, enjoy a continuous stream of classic jokes and clever riddles to keep the good vibes rolling.
-* **A Listening Ear:** If you're feeling down, the program provides a dedicated space for you to type out and vent your frustrations.
-* **Curated Motivation:** Delivers timeless, inspiring quotes to help you find perspective during tough times.
+* **Smart Venting & Keyword Detection (New!):** If you're feeling down, you can type out what's on your mind. The script dynamically scans your response for specific keywords (like *trouble*, *miserable*, or *hungry*) to offer a personalized, context-aware comforting message.
+* **Curated Motivation:** Delivers timeless, inspiring quotes from historical figures to help you find perspective during tough times.
 * **Interactive Loops:** Keep reading quotes or jokes for as long as you want, and exit whenever you're ready.
 
 ---
@@ -17,7 +17,7 @@ A simple, interactive Python command-line application designed to be a safe spac
 ## 🛠️ How to Run
 
 1.  **Prerequisites:** Make sure you have [Python 3](https://www.python.org/) installed on your machine.
-2.  **Download the Code:** Copy the script into a file named `main.py` (or any name you prefer).
+2.  **Download the Code:** Copy the script into a file named `main.py`.
 3.  **Execute the Script:** Open your terminal or command prompt, navigate to the folder containing your script, and run:
     ```bash
     python main.py
@@ -27,7 +27,7 @@ A simple, interactive Python command-line application designed to be a safe spac
 
 ## 📝 Attributions & Credits
 
-This project features timeless quotes, classic jokes, and clever riddles gathered from various historical figures and popular culture:
+This project blends creative programming with timeless content sourced from literature, history, and comedy:
 
 ### 💡 Motivational Quotes
 * **Steve Jobs** – *"The only way to do great work is to love what you do."*
@@ -37,12 +37,11 @@ This project features timeless quotes, classic jokes, and clever riddles gathere
 * **Peter Drucker** – *"The best way to predict the future is to create it."*
 
 ### 🎭 Riddles & Jokes
-* The traditional riddles ("The Letter Challenge", "The Living Paradox", "The Moving Canvas", "The Daily Shrink", "The Fragile Entity", and "The Mailbox Trick") are classic folklore puzzles shared by generations of riddle enthusiasts.
-* The Uranus planetary joke is credited to the creative teachers and science educators who keep astronomy entertaining.
-* Classic playground jokes ("Why did the chicken cross the road?", "Why did the math book look sad?", "What's brown and sticky?") are part of the public domain of timeless comedy.
+* Traditional riddles (*"The Letter Challenge"*, *"The Living Paradox"*, *"The Moving Canvas"*, etc.) are adapted from classic, public-domain folklore puzzles.
+* The Uranus planetary joke is credited to astronomy and science educators who use humor to keep STEM engaging.
+* Classic playground jokes (*"Why did the chicken cross the road?"*, *"Why did the math book look sad?"*) are part of the shared public domain of timeless comedy.
 
 ---
 
 ## 🤖 AI Contribution Notice
-This `README.md` documentation file was proudly co-created and formatted with the assistance of **AI** to ensure clear, engaging, and professional layout standards.# Motivator
-A python project where you can vent out all your problems and the code will give you a random motivational quote or joke or riddle or something like that.
+This `README.md` documentation file was proudly co-created and formatted with the assistance of **AI** to ensure clear, engaging, and professional layout standards.
