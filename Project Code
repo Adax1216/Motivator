@@ -1,50 +1,53 @@
-import random
-feelings=input("Hey are you feeling Good, I hope you are (Y/N): ")
-if feelings.lower() == 'y':
-    print("That's great to hear! Here I also got some riddles and jokes for you to make you feel even better!")
-    while True:
-        jokes = [
-            "Why did the chicken cross the road? I don't know, go ask the chicken!",
-            "The Letter Challenge: What appears once in a minute, twice in a moment, but never in a thousand years? Answer: The letter M." ,
-            "The Living Paradox: I love to be fed, but water kills me. What am I? Answer: Fire." ,
-            "The Moving Canvas: I have cities, but no houses; forests, but no trees; and water, but no fish. What am I? Answer: A map." ,
-            "The Daily Shrink: What gets shorter as it gets older? Answer: A candle." ,
-            "The Fragile Entity: What is so fragile that saying its name breaks it? Answer: Silence." ,
-            "The Mailbox Trick: What starts with a P, ends with an E, and has thousands of letters? Answer: The Post Office." ,
-            "The Tech-Savvy Bird: Why do elephants never use computers? Answer: Because they are afraid of the mouse!" ,
-            "The Ocean Greeting: What did the sushi say to the bee? Answer: Wasabi!" ,
-            "The Music Mix-up: What kind of band never plays music? Answer: A rubber band." ,
-            "The Class Prank: Why did the math book look sad? Answer: Because it had too many problems." ,
-            "The Architectural Feat: What building has the most stories? Answer: The library!" ,
-            "“When teaching the planets, teach them about gas giants. Then, tell them that Uranus is a gas giant. It really is, and I'm telling you, that joke slaps every single time I tell it.”" ,
-            "“What's brown and sticky? A stick.”"]
-        print(random.choice(jokes))
-        again=input("Do you want to see another joke/riddle? (Y/N): ")
-        if again.lower() == 'n':
-            break
-elif feelings.lower() == 'n':
-    talk=input("I'm sorry to hear that. Do you want to talk about it? (Y/N): ")
-    if talk.lower() == 'y':
-        story = input("I'm here to listen. Please feel free to share what's on your mind: ")
-        story_lower = story.lower()
-        if "trouble" in story_lower:
-            print("I am truly sorry to hear that you got in trouble")
-        elif "miserable" in story_lower:
-            print("I am sorry to hear that you feel miserable, why don't you read a few motivational quotes")
-        elif "hungry" in story_lower:
-            print("Sorry to hear that you are hungry, maybe some quotes will motivate you into getting food!")
-    while True:
-        quotes = [
-            "The only way to do great work is to love what you do. - Steve Jobs",
-            "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
-            "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
-            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
-            "The best way to predict the future is to create it. - Peter Drucker"]
-        print(random.choice(quotes))
-        again=input("Do you want to see another quote? (Y/N): ")
-        if again.lower() == 'n':
-            break
-if input("Do you feel better now? (Y/N): ").lower() == 'n':
-    print("Take care! Remember, it's okay to have bad days. You're not alone, and things will get better.")
-else:
-    print("Thats good to hear, I hope you have nice rest of your day!")
+while True:
+    import random
+    feelings=input("Hey are you feeling Good, I hope you are (Y/N): ")
+    if feelings.lower() == 'y':
+        print("That's great to hear! Here I also got some riddles and jokes for you to make you feel even better!")
+        while True:
+            jokes = [
+                "Why did the chicken cross the road? I don't know, go ask the chicken!",
+                "The Letter Challenge: What appears once in a minute, twice in a moment, but never in a thousand years? Answer: The letter M." ,
+                "The Living Paradox: I love to be fed, but water kills me. What am I? Answer: Fire." ,
+                "The Moving Canvas: I have cities, but no houses; forests, but no trees; and water, but no fish. What am I? Answer: A map." ,
+                "The Daily Shrink: What gets shorter as it gets older? Answer: A candle." ,
+                "The Fragile Entity: What is so fragile that saying its name breaks it? Answer: Silence." ,
+                "The Mailbox Trick: What starts with a P, ends with an E, and has thousands of letters? Answer: The Post Office." ,
+                "The Tech-Savvy Bird: Why do elephants never use computers? Answer: Because they are afraid of the mouse!" ,
+                "The Ocean Greeting: What did the sushi say to the bee? Answer: Wasabi!" ,
+                "The Music Mix-up: What kind of band never plays music? Answer: A rubber band." ,
+                "The Class Prank: Why did the math book look sad? Answer: Because it had too many problems." ,
+                "The Architectural Feat: What building has the most stories? Answer: The library!" ,
+                "“When teaching the planets, teach them about gas giants. Then, tell them that Uranus is a gas giant. It really is, and I'm telling you, that joke slaps every single time I tell it.”" ,
+                "“What's brown and sticky? A stick.”"]
+            print(random.choice(jokes))
+            again=input("Do you want to see another joke/riddle? (Y/N): ")
+            if again.lower() == 'n':
+                break
+    elif feelings.lower() == 'n':
+        talk=input("I'm sorry to hear that. Do you want to talk about it? (Y/N): ")
+        if talk.lower() == 'y':
+            story = input("I'm here to listen. Please feel free to share what's on your mind: ")
+            story_lower = story.lower()
+            if "trouble" in story_lower:
+                print("I am truly sorry to hear that you got in trouble")
+            elif "miserable" in story_lower:
+                print("I am sorry to hear that you feel miserable, why don't you read a few motivational quotes")
+            elif "hungry" in story_lower:
+                print("Sorry to hear that you are hungry, maybe some quotes will motivate you into getting food!")
+        while True:
+            quotes = [
+                "The only way to do great work is to love what you do. - Steve Jobs",
+                "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
+                "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
+                "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+                "The best way to predict the future is to create it. - Peter Drucker"]
+            print(random.choice(quotes))
+            again=input("Do you want to see another quote? (Y/N): ")
+            if again.lower() == 'n':
+                break
+    if input("Do you feel better now? (Y/N): ").lower() == 'n':
+        print("Take care! Remember, it's okay to have bad days. You're not alone, and things will get better. If you continue to feel bad please consider visiting a therapust or counselor, Thank You.")
+    else:
+        print("Thats good to hear, I hope you have nice rest of your day!")
+    if input("Would you like to try Motivator again? ").lower() == "n":
+        break
