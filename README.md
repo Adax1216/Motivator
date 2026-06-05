@@ -1,47 +1,21 @@
-# Motivator 🧠✨
+Motivator😊🎇✨
+Motivator is a command line python project designed too help people cope with their feelings. Note this is not a replacement for a therapist or counselor. Built with a focus on User Wellbieng, Motivation, and making the user laugh. This software delivers a smile to your face or determination when you are feeling down.
 
-An interactive, command-line Python application designed to act as a digital sounding board and a mood booster. Built with a focus on user well-being, **Motivator** serves a dual purpose: providing a safe, private space to express negative feelings with personalized feedback, or delivering instant, lighthearted entertainment to brighten your day.
+🎉Features:
+😢Mood Scanner: The code begins with asking how you feel the output you get is based on this. If you are doing good and have no problems it than throws an endless barrage of jokes and riddles at you, But if you are feeling down it gives some motivational quotes to get some determination in you.
+🧧Personalized Venting: Every time you say some keywords in the Vent Box the code gives you a contex aware and comforting message. Right now this only works for the keywords Hungry, Miserable, and Trouble.
+Motivation: This gives you a endless array of quotes by notable people including the great Steve Jobs himslef.
 
----
+Credits
+Obviously I didn't make the quotes myself these are the credits the words made by others.
 
-## 🚀 Features
-
-* **Mood Assessment:** Checks in on how you are feeling right from the start.
-* **The Joke & Riddle Vault:** If you're doing well, enjoy a continuous stream of classic jokes and clever riddles to keep the good vibes rolling.
-* **Smart Venting & Keyword Detection (New!):** If you're feeling down, you can type out what's on your mind. The script dynamically scans your response for specific keywords (like *trouble*, *miserable*, or *hungry*) to offer a personalized, context-aware comforting message.
-* **Curated Motivation:** Delivers timeless, inspiring quotes from historical figures to help you find perspective during tough times.
-* **Interactive Loops:** Keep reading quotes or jokes for as long as you want, and exit whenever you're ready.
-
----
-
-## 🛠️ How to Run
-
-1.  **Prerequisites:** Make sure you have [Python 3](https://www.python.org/) installed on your machine.
-2.  **Download the Code:** Copy the script into a file named `main.py`.
-3.  **Execute the Script:** Open your terminal or command prompt, navigate to the folder containing your script, and run:
-    ```bash
-    python main.py
-    ```
-
----
-
-## 📝 Attributions & Credits
-
-This project blends creative programming with timeless content sourced from literature, history, and comedy:
-
-### 💡 Motivational Quotes
-* **Steve Jobs** – *"The only way to do great work is to love what you do."*
-* **Albert Schweitzer** – *"Success is not the key to happiness. Happiness is the key to success."*
-* **Sam Levenson** – *"Don't watch the clock; do what it does. Keep going."*
-* **Eleanor Roosevelt** – *"The future belongs to those who believe in the beauty of their dreams."*
-* **Peter Drucker** – *"The best way to predict the future is to create it."*
-
-### 🎭 Riddles & Jokes
-* Traditional riddles (*"The Letter Challenge"*, *"The Living Paradox"*, *"The Moving Canvas"*, etc.) are adapted from classic, public-domain folklore puzzles.
-* The Uranus planetary joke is credited to astronomy and science educators who use humor to keep STEM engaging.
-* Classic playground jokes (*"Why did the chicken cross the road?"*, *"Why did the math book look sad?"*) are part of the shared public domain of timeless comedy.
-
----
-
-## 🤖 AI Contribution Notice
-This `README.md` documentation file was proudly co-created and formatted with the assistance of **AI** to ensure clear, engaging, and professional layout standards.
+💡 Motivational Quotes
+Steve Jobs – "The only way to do great work is to love what you do."
+Albert Schweitzer – "Success is not the key to happiness. Happiness is the key to success."
+Sam Levenson – "Don't watch the clock; do what it does. Keep going."
+Eleanor Roosevelt – "The future belongs to those who believe in the beauty of their dreams."
+Peter Drucker – "The best way to predict the future is to create it."
+🎭 Riddles & Jokes
+Traditional riddles ("The Letter Challenge", "The Living Paradox", "The Moving Canvas", etc.) are adapted from classic, public-domain folklore puzzles.
+The Uranus planetary joke is credited to astronomy and science educators who use humor to keep STEM engaging.
+Classic playground jokes ("Why did the math book look sad?") are part of the shared public domain of timeless comedy.
