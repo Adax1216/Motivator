@@ -46,7 +46,7 @@ while True:
             if again.lower() == 'n':
                 break
     if input("Do you feel better now? (Y/N): ").lower() == 'n':
-        print("Take care! Remember, it's okay to have bad days. You're not alone, and things will get better. If you continue to feel bad please consider visiting a therapust or counselor, Thank You.")
+        print("Take care! Remember, it's okay to have bad days. You're not alone, and things will get better. If you continue to feel bad please consider visiting a therapist or counselor, Thank You.")
     else:
         print("Thats good to hear, I hope you have nice rest of your day!")
     if input("Would you like to try Motivator again? ").lower() == "n":
