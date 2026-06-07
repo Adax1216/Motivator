@@ -1,5 +1,6 @@
 while True:
     import random
+    import time
     feelings=input("Hey are you feeling Good, I hope you are (Y/N): ")
     if feelings.lower() == 'y':
         print("That's great to hear! Here I also got some riddles and jokes for you to make you feel even better!")
@@ -34,6 +35,38 @@ while True:
                 print("I am sorry to hear that you feel miserable, why don't you read a few motivational quotes")
             elif "hungry" in story_lower:
                 print("Sorry to hear that you are hungry, maybe some quotes will motivate you into getting food!")
+        elif talk.lower() == 'n':
+            print("Ok but practice some breathing exercises with me.")
+            while True:    
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                time.sleep(3)
+                print("Inhale")
+                time.sleep(3)
+                print("exhale")
+                if input("Do you want to continue breathing exercises? ").lower() == "n":
+                    break
         while True:
             quotes = [
                 "The only way to do great work is to love what you do. - Steve Jobs",
