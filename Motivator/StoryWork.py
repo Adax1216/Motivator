@@ -1,0 +1,9 @@
+while True:
+    story = input("I'm here to listen. Please feel free to share what's on your mind: ")
+    story_lower = story.lower()
+    if "trouble" in story_lower:
+        print("I am truly sorry to hear that you got in trouble")
+    elif "miserable" in story_lower:
+        print("I am sorry to hear that you feel miserable, why don't you read a few motivational quotes")
+    elif "hungry" in story_lower:
+        print("Sorry to hear that you are hungry, maybe some quotes will motivate you into getting food!")
